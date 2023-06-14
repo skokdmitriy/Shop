@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1BAE57402A3A16F9009D1100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE573F2A3A16F9009D1100 /* AppDelegate.swift */; };
-		1BAE57422A3A16F9009D1100 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE57412A3A16F9009D1100 /* SceneDelegate.swift */; };
 		1BAE57492A3A16FA009D1100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE57482A3A16FA009D1100 /* Assets.xcassets */; };
 		1BAE574C2A3A16FA009D1100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE574A2A3A16FA009D1100 /* LaunchScreen.storyboard */; };
 		1BAE57572A3A16FA009D1100 /* ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE57562A3A16FA009D1100 /* ShopTests.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		1BAE573C2A3A16F9009D1100 /* Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAE573F2A3A16F9009D1100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BAE57412A3A16F9009D1100 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1BAE57482A3A16FA009D1100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BAE574B2A3A16FA009D1100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BAE574D2A3A16FA009D1100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				1BAE573F2A3A16F9009D1100 /* AppDelegate.swift */,
-				1BAE57412A3A16F9009D1100 /* SceneDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -276,7 +273,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BAE57402A3A16F9009D1100 /* AppDelegate.swift in Sources */,
-				1BAE57422A3A16F9009D1100 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
