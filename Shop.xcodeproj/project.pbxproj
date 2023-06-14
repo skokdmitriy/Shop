@@ -93,7 +93,8 @@
 		1BAE573E2A3A16F9009D1100 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
-				1BAE576F2A3A19B6009D1100 /* Application */,
+				1BAE57732A3A1D30009D1100 /* App */,
+				1BAE57722A3A1D26009D1100 /* Core */,
 				1BAE57702A3A19D8009D1100 /* Resources */,
 				1BAE57712A3A19F7009D1100 /* Environments */,
 			);
@@ -140,6 +141,53 @@
 				1BAE574D2A3A16FA009D1100 /* Info.plist */,
 			);
 			path = Environments;
+			sourceTree = "<group>";
+		};
+		1BAE57722A3A1D26009D1100 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1BAE57732A3A1D30009D1100 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE576F2A3A19B6009D1100 /* Application */,
+				1BAE57742A3A1D51009D1100 /* BusinessLogic */,
+				1BAE57752A3A1D6D009D1100 /* Entity */,
+				1BAE57762A3A1D7D009D1100 /* Assembly */,
+				1BAE57772A3A1D86009D1100 /* Flows */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1BAE57742A3A1D51009D1100 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		1BAE57752A3A1D6D009D1100 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1BAE57762A3A1D7D009D1100 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		1BAE57772A3A1D86009D1100 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
