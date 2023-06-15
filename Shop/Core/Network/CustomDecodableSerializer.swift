@@ -8,6 +8,8 @@
 import Foundation
 import Alamofire
 
+// DataRequest(разбор данный)
+
 class CustomDecodableSerializer<T: Decodable>: DataResponseSerializerProtocol {
     private let errorParser: AbstractErrorParser
 

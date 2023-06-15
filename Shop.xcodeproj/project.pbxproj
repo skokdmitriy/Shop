@@ -17,6 +17,8 @@
 		1BAE577C2A3A25B7009D1100 /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE577B2A3A25B7009D1100 /* ErrorParser.swift */; };
 		1BAE577F2A3A273E009D1100 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1BAE577E2A3A273E009D1100 /* Alamofire */; };
 		1BAE57822A3A2787009D1100 /* CustomDecodableSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE57812A3A2787009D1100 /* CustomDecodableSerializer.swift */; };
+		1BAE57842A3B4C73009D1100 /* AbstractRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE57832A3B4C73009D1100 /* AbstractRequestFactory.swift */; };
+		1BAE57862A3B634F009D1100 /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE57852A3B634F009D1100 /* RequestRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		1BAE57792A3A250B009D1100 /* AbstractErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractErrorParser.swift; sourceTree = "<group>"; };
 		1BAE577B2A3A25B7009D1100 /* ErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorParser.swift; sourceTree = "<group>"; };
 		1BAE57812A3A2787009D1100 /* CustomDecodableSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecodableSerializer.swift; sourceTree = "<group>"; };
+		1BAE57832A3B4C73009D1100 /* AbstractRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractRequestFactory.swift; sourceTree = "<group>"; };
+		1BAE57852A3B634F009D1100 /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,8 @@
 				1BAE57792A3A250B009D1100 /* AbstractErrorParser.swift */,
 				1BAE577B2A3A25B7009D1100 /* ErrorParser.swift */,
 				1BAE57812A3A2787009D1100 /* CustomDecodableSerializer.swift */,
+				1BAE57832A3B4C73009D1100 /* AbstractRequestFactory.swift */,
+				1BAE57852A3B634F009D1100 /* RequestRouter.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -345,7 +351,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAE57842A3B4C73009D1100 /* AbstractRequestFactory.swift in Sources */,
 				1BAE57402A3A16F9009D1100 /* AppDelegate.swift in Sources */,
+				1BAE57862A3B634F009D1100 /* RequestRouter.swift in Sources */,
 				1BAE577C2A3A25B7009D1100 /* ErrorParser.swift in Sources */,
 				1BAE57822A3A2787009D1100 /* CustomDecodableSerializer.swift in Sources */,
 				1BAE577A2A3A250B009D1100 /* AbstractErrorParser.swift in Sources */,
