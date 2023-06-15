@@ -19,6 +19,8 @@
 		1BAE57822A3A2787009D1100 /* CustomDecodableSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE57812A3A2787009D1100 /* CustomDecodableSerializer.swift */; };
 		1BAE57842A3B4C73009D1100 /* AbstractRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE57832A3B4C73009D1100 /* AbstractRequestFactory.swift */; };
 		1BAE57862A3B634F009D1100 /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE57852A3B634F009D1100 /* RequestRouter.swift */; };
+		1BAE57882A3B6DE4009D1100 /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE57872A3B6DE4009D1100 /* LoginResult.swift */; };
+		1BAE578A2A3B6E2C009D1100 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE57892A3B6E2C009D1100 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		1BAE57812A3A2787009D1100 /* CustomDecodableSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecodableSerializer.swift; sourceTree = "<group>"; };
 		1BAE57832A3B4C73009D1100 /* AbstractRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractRequestFactory.swift; sourceTree = "<group>"; };
 		1BAE57852A3B634F009D1100 /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
+		1BAE57872A3B6DE4009D1100 /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
+		1BAE57892A3B6E2C009D1100 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,8 @@
 		1BAE57752A3A1D6D009D1100 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				1BAE57872A3B6DE4009D1100 /* LoginResult.swift */,
+				1BAE57892A3B6E2C009D1100 /* User.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -352,8 +358,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BAE57842A3B4C73009D1100 /* AbstractRequestFactory.swift in Sources */,
+				1BAE57882A3B6DE4009D1100 /* LoginResult.swift in Sources */,
 				1BAE57402A3A16F9009D1100 /* AppDelegate.swift in Sources */,
 				1BAE57862A3B634F009D1100 /* RequestRouter.swift in Sources */,
+				1BAE578A2A3B6E2C009D1100 /* User.swift in Sources */,
 				1BAE577C2A3A25B7009D1100 /* ErrorParser.swift in Sources */,
 				1BAE57822A3A2787009D1100 /* CustomDecodableSerializer.swift in Sources */,
 				1BAE577A2A3A250B009D1100 /* AbstractErrorParser.swift in Sources */,
