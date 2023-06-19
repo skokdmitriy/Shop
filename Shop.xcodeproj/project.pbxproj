@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B6AEBB92A3E10AC00A83706 /* ResponseCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6AEBB82A3E10AC00A83706 /* ResponseCodableTests.swift */; };
 		1BAE57402A3A16F9009D1100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE573F2A3A16F9009D1100 /* AppDelegate.swift */; };
 		1BAE57492A3A16FA009D1100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE57482A3A16FA009D1100 /* Assets.xcassets */; };
 		1BAE574C2A3A16FA009D1100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE574A2A3A16FA009D1100 /* LaunchScreen.storyboard */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6AEBB82A3E10AC00A83706 /* ResponseCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCodableTests.swift; sourceTree = "<group>"; };
 		1BAE573C2A3A16F9009D1100 /* Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAE573F2A3A16F9009D1100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BAE57482A3A16FA009D1100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				1BAE57562A3A16FA009D1100 /* ShopTests.swift */,
+				1B6AEBB82A3E10AC00A83706 /* ResponseCodableTests.swift */,
 			);
 			path = ShopTests;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BAE57572A3A16FA009D1100 /* ShopTests.swift in Sources */,
+				1B6AEBB92A3E10AC00A83706 /* ResponseCodableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
